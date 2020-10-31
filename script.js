@@ -40,7 +40,6 @@ calBtn.addEventListener('click', function (e) {
     let total = salaryCalculator(hw, ew);
     let totalPays = (hw + ew) * 1000
     let extraPays = ew *200
-    console.log(total);
     tp.innerHTML = `Total Hour Pay: <span>&#8358;</span>${totalPays}`;
     ep.innerHTML = `Extra Pay: <span>&#8358;</span>${extraPays}`;
     ts.innerHTML = `Total Salary: <span>&#8358;</span>${total}`;
